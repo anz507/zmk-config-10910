@@ -1,0 +1,6 @@
+if SHIELD_10910
+
+config ZMK_KEYBOARD_NAME
+    default "10910"
+
+endif
