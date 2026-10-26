@@ -46,6 +46,12 @@
             key-positions = <17 19>;
             bindings = <&kp RETURN>;
         };
+
+        combo_mothree {
+            timeout-ms = <50>;
+            key-positions = <4 5>;
+            bindings = <&mo 3>;
+        };
     };
 
     keymap {
@@ -79,7 +85,7 @@
             bindings = <
                 &none           &none            &none            &none            &none           &none          &none       &none       &none       &none
                 &bt BT_CLR_ALL  &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3   &none       &none       &none       &none
-                &none           &none            &none            &none            &none           &none          &none       &none       &none       &none
+                &bootloader     &none            &none            &none            &none           &none          &none       &none       &none       &none
             >;
         };
     };
