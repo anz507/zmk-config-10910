@@ -69,9 +69,17 @@
 
         mod2_layer {
             bindings = <
-                &kp N1     &kp N2           &kp N3           &kp N4           &kp N5  &kp N6     &kp N7     &kp N8     &kp N9      &kp N0
-                &kp BSLH   &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &none   &kp MINUS  &kp EQUAL  &kp LBRC   &none       &kp RBRC
-                &kp LSHFT  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &none   &none      &none      &none      &none       &kp RSHFT
+                &kp N1     &kp N2   &kp N3    &kp N4    &kp N5  &kp N6     &kp N7     &kp N8     &kp N9      &kp N0
+                &kp BSLH   &none    &none     &none     &none   &kp MINUS  &kp EQUAL  &kp LBKT   &none       &kp RBKT
+                &kp LSHFT  &none    &none     &none     &none   &none      &none      &none      &none       &kp RSHFT
+            >;
+        };
+
+        mod3_layer {
+            bindings = <
+                &none           &none            &none            &none            &none           &none          &none       &none       &none       &none
+                &bt BT_CLR_ALL  &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3   &none       &none       &none       &none
+                &none           &none            &none            &none            &none           &none          &none       &none       &none       &none
             >;
         };
     };
