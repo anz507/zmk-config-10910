@@ -67,7 +67,7 @@
 
         mod1_layer {
             bindings = <
-                &kp GRAVE  &bt BT_CLR_ALL  &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT
+                &kp GRAVE  &none           &none         &none  &none  &none         &kp LEFT      &kp DOWN  &kp UP     &kp RIGHT
                 &kp PIPE   &kp C_NEXT      &kp C_PLAY    &none  &none  &kp MINUS     &kp EQUAL     &kp LBRC  &none      &kp RBRC
                 &kp LSHFT  &kp C_VOL_DN    &kp C_VOL_UP  &none  &none  &none         &kp SEMI      &kp SQT   &kp SLASH  &kp RSHFT
             >;
